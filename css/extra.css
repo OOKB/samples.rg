@@ -26,6 +26,11 @@
 .p2 { padding: 2rem; }
 .p3 { padding: 3rem; }
 .p4 { padding: 4rem; }
+.pb0 { padding-bottom: 0; }
+.pb1 { padding-bottom: 1rem; }
+.pb2 { padding-bottom: 2rem; }
+.pb3 { padding-bottom: 3rem; }
+.pb4 { padding-bottom: 4rem; }
 .text-center { text-align: center; }
 .fa.smaller { font-size: 75%; }
 .ba1 { border-width: 1px; border-style: solid; }
@@ -121,9 +126,9 @@ legend.desc {
 }
 
 li fieldset {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   border-bottom: 1px solid #9a8669;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 fieldset .flex {
   display:flex;
