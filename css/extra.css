@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+    font-family: "adobe-caslon-pro", "Adobe Caslon Pro", "Adobe Caslon", AdobeCaslon, cambria, "times-new-roman", times, georgia, serif; 
+}
+
 .relative { position: relative; }
 .m0 { margin: 0;}
 .m1 { margin: 1rem; }
