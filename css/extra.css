@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: "adobe-caslon-pro", "Adobe Caslon Pro", "Adobe Caslon", AdobeCaslon, cambria, "times-new-roman", times, georgia, serif; 
+    font-family: "adobe-caslon-pro", "Adobe Caslon Pro", "Adobe Caslon", AdobeCaslon, cambria, "times-new-roman", times, georgia, serif;
 }
 
 .relative { position: relative; }
@@ -42,6 +42,8 @@ body {
 .bb1 { border-bottom-width: 1px; border-bottom-style: solid; }
 .br1 { border-right-width: 1px; border-right-style: solid; }
 .bl1 { border-left-width: 1px; border-left-style: solid; }
+
+.gray { color: #848484; }
 
 html,
 body,
@@ -222,8 +224,8 @@ span.subfield:hover {
 }
 
 header h1 {
-  width: 350px;
-  height: 60px;
+  width: 280px;
+  height: 48px;
   margin: 34px auto 30px;
   -webkit-box-shadow: 0 0 9px 0 rgba(132,132,132,0.25);
   -moz-box-shadow: 0 0 9px 0 rgba(132,132,132,0.25);
@@ -240,12 +242,11 @@ header h1:hover {
   -o-box-shadow: 0 0 9px 0 rgba(132,132,132,0.5);
   box-shadow: 0 0 9px 0 rgba(132,132,132,0.5);
 }
-
 header h1 a {
   display: block;
   background: url("http://www.rogersandgoffigon.com/images/rglogo.png") center center no-repeat;
   background-size: contain;
-  height: 60px;
+  height: 48px;
   margin: 0;
   padding: 0;
   text-indent: 200%;
@@ -255,6 +256,16 @@ header h1 a {
 }
 header h1 a:hover {
   border: none;
+}
+
+@media (min-width: 500px) {
+  header h1 {
+    width: 350px;
+    height: 60px;
+  }
+  header h1 a {
+    height: 60px;
+  }
 }
 
 .addressFields {
@@ -280,7 +291,7 @@ header h1 a:hover {
 
 .addressFields input {
   font-size: .9rem;
-  padding: .75rem;
+  padding: 0 .75rem;
   line-height: 2.4rem;
   height: 2.4rem;
   background-color: transparent;
