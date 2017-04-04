@@ -43,7 +43,7 @@ body {
 .br1 { border-right-width: 1px; border-right-style: solid; }
 .bl1 { border-left-width: 1px; border-left-style: solid; }
 
-.gray { color: #848484; }
+.gray { color: #848484 !important; }
 
 html,
 body,
