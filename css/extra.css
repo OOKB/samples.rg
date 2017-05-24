@@ -146,8 +146,6 @@ a:hover {
   padding-bottom: .1em;
 }
 
-
-
 legend,
 legend.desc {
   text-transform: uppercase;
@@ -320,7 +318,7 @@ header h1 a:hover {
   padding: 0 .75rem;
   line-height: 2.4rem;
   height: 2.4rem;
-  background-color: transparent;
+  background-color: #fcfbf8;
   background-image: none;
   color: #848484;
   border: 1px solid currentColor;
@@ -368,4 +366,14 @@ header h1 a:hover {
 li.first {
   padding-top: 1.5rem;
   border-color: #9a8669;
+}
+
+form li.focused {
+  background-color: rgba(114,90,56,.075);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  border-bottom-color: transparent;
+  border-radius: .25rem;
 }
